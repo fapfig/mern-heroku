@@ -4,7 +4,7 @@ const Local = () => {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    fetch("/api/user/")
+    fetch("/api/user")
       .then((response) => response.json())
       .then((data) => {
         setUsers(data);
