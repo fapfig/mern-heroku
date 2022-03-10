@@ -1,0 +1,7 @@
+**/build
+**/node_modules
+
+# Configuration file, it contains all passwords.
+#config.json
+
+.vscode
